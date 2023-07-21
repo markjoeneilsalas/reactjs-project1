@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.backgroundcolor {
+    background: hsla(195, 71%, 31%, 1);
+    background: radial-gradient(circle, hsla(195, 71%, 31%, 1) 0%, hsla(205, 100%, 9%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(195, 71%, 31%, 1) 0%, hsla(205, 100%, 9%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(195, 71%, 31%, 1) 0%, hsla(205, 100%, 9%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#176B87", endColorstr="#001C30", GradientType=1 );
+}

@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial !important;
+}
+
+/* project background color  */
+#backgroundcolor {
+    margin: 0;
+    background: hsla(195, 71%, 31%, 1);
+    background: radial-gradient(circle, hsla(195, 71%, 31%, 1) 0%, hsla(205, 100%, 9%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(195, 71%, 31%, 1) 0%, hsla(205, 100%, 9%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(195, 71%, 31%, 1) 0%, hsla(205, 100%, 9%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#176B87", endColorstr="#001C30", GradientType=1 );
+    height: 100vh;
+}
+
+.Home {
+    padding: 2rem 100px 2rem 100px;
+    position: relative:
+}
+
+/* navbar start */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+}
+
+.navlink {
+    display: flex;
+    gap: 20px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+button {
+    color: white;
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    height: 50px;
+}
+
+button:hover {
+    background-color: white !important;
+    color: black;
+}
+
+ul li {
+    display: flex;
+    font-size: 30px;
+}
+
+ul li:hover {
+    color: #64CCC5;
+    transform: scale(1.2);
+}
+
+.homeitems {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.homeitems2 {
+    position: absolute;
+    color: white;
+    top: 650px;
+
+}
+
+.homeitems3 {
+    position: absolute;
+    display: flex;
+    color: white;
+    top: 250px;
+}
+
+span {
+    color: red;
+}
+
+.Roboticon {
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 600;
+    width: 500px;
+}
+
+.getonebtn {
+    position: absolute;
+    top: -30px;
+    left: 130px;
+    width: 400px;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.Robot {
+    margin-top: 4rem;
+	animation: float 6s ease-in-out infinite;
+}
+
+.robothand {
+    width: 40%;
+    top: 150px;
+
+}
+
+.slogan {
+    color: white;
+}
+
+/* navbar end */
+.iconcolors {
+    position: absolute;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    gap: 3rem;
+    top: 900px;
+    left: 150px;
+    color: white
+}
+
+@media (max-width: 1366px) {
+    /* Your responsive CSS styles go here */
+    .homeitems2 {
+        display: none;
+    }
+
+  }
+
+
+@media (max-width: 1095px) {
+/* Your responsive CSS styles go here */
+.Robot {
+    width: 120%;
+}
+
+.slogan {
+    font-size: 10px;
+}
+
+.iconcolors {
+    position: absolute;
+    display: flex;
+    align-item: center;
+    justify-content: center;
+    gap: 3rem;
+    top: 700px;
+    left: 150px;
+    color: white
+}
+
+}
+
+@media (max-width: 1024px) {
+    /* Your responsive CSS styles go here */
+    ul li {
+        display: none;
+    }
+
+  }
+
+@media (max-width: 891px) {
+/* Your responsive CSS styles go here */
+.homeitems3 {
+    display: flex;
+    top: 500px;
+}
+
+.slogan {
+    font-size: 18px;
+}
+
+}
